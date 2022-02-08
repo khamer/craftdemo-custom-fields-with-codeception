@@ -9,8 +9,10 @@ class ExampleCest
     {
     }
 
-    // tests
-    public function tryToTest(FunctionalTester $I)
+    /**
+     * This test passes.
+     */
+    public function testRedactorInMatrix(FunctionalTester $I)
     {
         $section = Craft::$app->sections->getSectionByHandle('blog');
         $entryType = current($section->getEntryTypes());
@@ -43,7 +45,10 @@ class ExampleCest
         $I->see("Here is some");
     }
 
-    public function testNeo(FunctionalTester $I)
+    /**
+     * This test fails - I don't even see the block created in the CMS.
+     */
+    public function testRedactorInNeo(FunctionalTester $I)
     {
         $section = Craft::$app->sections->getSectionByHandle('blog');
         $entryType = current($section->getEntryTypes());
