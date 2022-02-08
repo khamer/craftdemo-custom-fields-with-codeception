@@ -1,4 +1,5 @@
 /.env
+/tests/_output
 /tests/_craft/storage
 /web/assets/dist
 /.idea
