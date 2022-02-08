@@ -1,3 +1,4 @@
+columnSuffix: null
 contentColumnType: text
 fieldGroup: 911477c7-3c92-407b-a9a9-e69ccb74eabb # Common
 handle: caption
@@ -5,12 +6,14 @@ instructions: ''
 name: Caption
 searchable: true
 settings:
-  charLimit: ''
+  byteLimit: null
+  charLimit: null
   code: ''
   columnType: text
   initialRows: '4'
   multiline: ''
-  placeholder: ''
+  placeholder: null
+  uiMode: normal
 translationKeyFormat: null
 translationMethod: none
 type: craft\fields\PlainText
