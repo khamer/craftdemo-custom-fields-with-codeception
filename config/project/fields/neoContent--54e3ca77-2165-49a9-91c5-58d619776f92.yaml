@@ -1,0 +1,18 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 911477c7-3c92-407b-a9a9-e69ccb74eabb # Common
+handle: neoContent
+instructions: ''
+name: 'Neo Content'
+searchable: false
+settings:
+  maxBlocks: ''
+  maxLevels: ''
+  maxTopBlocks: ''
+  minBlocks: ''
+  propagationKeyFormat: null
+  propagationMethod: all
+  wasModified: false
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field

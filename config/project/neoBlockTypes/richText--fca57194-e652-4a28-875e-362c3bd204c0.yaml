@@ -1,0 +1,25 @@
+childBlocks: null
+field: 54e3ca77-2165-49a9-91c5-58d619776f92 # Neo Content
+fieldLayouts:
+  f5d7f057-9242-4f5e-90c7-f65a9537de96:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 26dfca69-03c6-4474-8498-1033eee6aa5c # Neo Rich Text
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Rich Text'
+        sortOrder: 1
+handle: richText
+maxBlocks: 0
+maxChildBlocks: 0
+maxSiblingBlocks: 0
+name: 'Rich Text'
+sortOrder: 1
+topLevel: true

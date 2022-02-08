@@ -1,4 +1,4 @@
-dateModified: 1644331369
+dateModified: 1644332214
 email:
   fromEmail: support@craftcms.com
   fromName: 'Craft Blog'
@@ -14,8 +14,10 @@ meta:
     6b203fd7-eca1-4313-8795-efbb5f6a8e63: Image # Image
     7e401ee6-3575-42de-b3b4-cedae706f392: 'Image Carousel' # Image Carousel
     09c265f3-2ab1-405d-9111-108e6b54f0fb: Quote # Quote
+    26dfca69-03c6-4474-8498-1033eee6aa5c: 'Neo Rich Text' # Neo Rich Text
     28d5c036-8cb0-4a14-b553-0167ee34efbe: Image # Image
     031e8547-9981-4367-ad27-178240517ea1: 'Site Introduction' # Site Introduction
+    54e3ca77-2165-49a9-91c5-58d619776f92: 'Neo Content' # Neo Content
     55cd92b3-363e-4573-ad2c-04650483ba64: Gatsby # Gatsby
     90dee5cc-23f1-40ac-ae14-3fa71bebc4dc: 'Craft Blog' # Craft Blog
     101a70a1-d200-4629-91e5-3425a0937c0e: Uploads # Uploads
@@ -36,6 +38,7 @@ meta:
     e567b6ab-3855-452b-a337-4c119dac4d62: 'Body Content' # Body Content
     f3400d6f-0f33-4cef-9521-f8f6620399ec: 'Craft Blog' # Craft Blog
     fb2f8912-57ad-4b4e-887d-e55f22a6d348: Embed # Embed
+    fca57194-e652-4a28-875e-362c3bd204c0: 'Rich Text' # Rich Text
 plugins:
   assetrev:
     edition: standard
@@ -48,6 +51,11 @@ plugins:
     settings:
       previewServerUrl: ''
       webhookTarget: $GATSBY_PREVIEW_TARGET
+  neo:
+    edition: standard
+    enabled: true
+    licenseKey: MI67AXY7B9PSH4ZAVRTOJG2A
+    schemaVersion: 2.11.6
   oembed:
     edition: standard
     enabled: true
