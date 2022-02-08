@@ -1,6 +1,10 @@
 /.env
+/tests/_craft/storage
+/web/assets/dist
 /.idea
 /vendor
 /node_modules
+/config/license.key
+_generated
 .DS_Store
 *.code-workspace
