@@ -68,7 +68,6 @@ class ExampleCest
             [
                 'blocks' => [
                     'new1' => [
-                        'modified' => 1,
                         'type' => 'richText',
                         'level' => 0,
                         'enabled' => true,
@@ -77,6 +76,9 @@ class ExampleCest
                             'neoRichText' => "Here is more <em>example</em> <strong>rich</strong> text.",
                         ],
                     ],
+                ],
+                'sortOrder' => [
+                    'new1',
                 ],
             ],
         );
